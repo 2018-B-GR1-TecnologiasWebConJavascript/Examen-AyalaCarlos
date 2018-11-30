@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/SoluciónExamen/examen.ts" line="42" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f7c107fb-c6ef-41b1-8589-d170f8dff35c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -18,20 +21,11 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SoluciónExamen/data.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3067156">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-161">
-                <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <first_editor relative-caret-position="380">
+                <caret line="186" column="1" lean-forward="true" selection-start-line="186" selection-start-column="1" selection-end-line="186" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -41,8 +35,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SoluciónExamen/examen.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="83" column="7" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
+            <state relative-caret-position="-202">
+              <caret line="99" column="47" lean-forward="true" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SoluciónExamen/data.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-14191">
+              <caret line="139" column="8" lean-forward="true" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -132,16 +135,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543612957254</updated>
-      <workItem from="1543612958580" duration="2724000" />
+      <workItem from="1543612958580" duration="5514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2724000" />
+    <option name="totallyTimeSpent" value="5514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24973656" />
@@ -179,27 +181,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SoluciónExamen/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3067156">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-161">
-            <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <first_editor relative-caret-position="380">
+            <caret line="186" column="1" lean-forward="true" selection-start-line="186" selection-start-column="1" selection-end-line="186" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SoluciónExamen/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14191">
+          <caret line="139" column="8" lean-forward="true" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SoluciónExamen/examen.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="83" column="7" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
+        <state relative-caret-position="-202">
+          <caret line="99" column="47" lean-forward="true" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
         </state>
       </provider>
     </entry>

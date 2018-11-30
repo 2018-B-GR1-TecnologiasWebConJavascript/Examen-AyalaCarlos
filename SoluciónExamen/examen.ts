@@ -7,6 +7,10 @@ const map = require('rxjs/operators').map;
 const arregloRespuestaTypes = [];
 const arregloRespuestaAbilities = [];
 const arregloRespuestaMove = [];
+const arregloRespuestaXTypes = [];
+const arregloRespuestaXAbilities = [];
+const arregloRespuestaXMoves = [];
+
 
 function inicialiarBDD() {
     return new Promise(
@@ -35,6 +39,8 @@ function inicialiarBDD() {
 // 1) Busque los tipos de "types" en el arreglo data.json
 // 2) Busque los tipos de "abilities" en el arreglo data.json
 // 3) Busque los tipos de "move" en el arreglo data.json
+// 4) Clasifique a los pokemon por types
+// 5) Clasifique a los pokemon por abilities
 async function main() {
     const inicializarBDD$ = rxjs.from(inicialiarBDD());
     inicializarBDD$
@@ -70,6 +76,57 @@ async function main() {
                 })
             });
 
+            res.bdd.forEach(element => {
+                element.types.forEach(tipo => {
+                    const pokemonXTipo = {
+                        nombre: tipo.type.name,
+                        pokemons: [
+                            {
+                                id: element.id,
+                                nombre: element.name
+                            }
+                        ]
+                    }
+                    arregloRespuestaXTypes.push(pokemonXTipo)
+                })
+            });
+
+            res.bdd.forEach(element => {
+                element.abilities.forEach(habilidad => {
+                    const pokemonXHabilidad = {
+                        nombre: habilidad.ability.name,
+                        pokemons: [
+                            {
+                                id: element.id,
+                                nombre: element.name
+                            }
+                        ]
+                    }
+                    arregloRespuestaXAbilities.push(pokemonXHabilidad)
+                })
+            });
+
+            res.bdd.forEach(element => {
+                element.moves.filter()
+
+
+                    .forEach(habilidad => {
+                    const pokemonXMovimiento = {
+                        nombre: habilidad.move.name,
+                        pokemons: [
+                            {
+                                id: element.id,
+                                nombre: element.name
+                            }
+                        ]
+                    }
+                    arregloRespuestaXMoves.push(pokemonXMovimiento)
+                })
+            });
+
+
+
+
             console.log('1) Busque los tipos de "types" en el arreglo data.json');
             console.log(arregloRespuestaTypes);
 
@@ -78,8 +135,24 @@ async function main() {
 
             console.log('\n3) Busque los tipos de "move" en el arreglo data.json');
             console.log(arregloRespuestaMove);
+
+            console.log('\n4) Clasifique a los pokemon por types');
+            console.log(JSON.stringify(arregloRespuestaXTypes));
+
+            console.log('\n5) Clasifique a los pokemon por abilities');
+            console.log(JSON.stringify(arregloRespuestaXAbilities));
+
+            console.log('\n6) Clasifique a los pokemon por move');
+            console.log(JSON.stringify(arregloRespuestaXMoves));
         })
 }
 
 main();
+
+
+
+
+
+
+
 
